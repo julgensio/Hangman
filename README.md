@@ -1,1 +1,1 @@
-Hangman
+Hangman game for educational purposes
