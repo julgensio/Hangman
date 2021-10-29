@@ -49,6 +49,7 @@ h1 {
 	display: flex;
 	flex-direction: column;
 	text-align: right;
+	width: 240px;
 }
 
 .wrong-letters-container p {
