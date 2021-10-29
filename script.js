@@ -4,15 +4,12 @@ const playAgainBtn = document.getElementById('play-button');
 const popup = document.getElementById('popup-container');
 const notification = document.getElementById('notification-container');
 const finalMessage = document.getElementById('final-message');
-console.log(wrongLettersEl);
 
 const figureParts = document.querySelectorAll('.figure-part');
 
 const words = ['pasta', 'gangster', 'tovennaar', 'plantje', 'loodgieter'];
 
 let selectedWord = words[Math.floor(Math.random() * words.length)];
-
-console.log(selectedWord);
 
 const correctLetters = [];
 const wrongLetters = [];
